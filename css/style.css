@@ -1,0 +1,91 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+.title {
+  flex: 1;
+  margin: auto;
+}
+
+.title-link {
+  text-decoration: none!important;
+  color: #fff;
+}
+.content {
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 20px;
+}
+a {
+  text-decoration: none !important;
+}
+
+input {
+  padding: 6px;
+  margin: 15px 0;
+}
+.submit-button {
+  width: 100%;
+}
+
+.page-footer {
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+}
+
+/* admin area */
+.content-admin {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logout-wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.idinfo-wrapper {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.table-title {
+  padding: 10px;
+}
+
+.back-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+}
